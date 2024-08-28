@@ -2,12 +2,12 @@
 
 # Function to print the banner
 print_banner() {
-    echo "#######################################" | lolcat
-    echo "#                                     #" | lolcat
-    echo "#         Hardware-PT Toolkit         #" | lolcat
-    echo "#         Created by Cybermax         #" | lolcat
-    echo "#                                     #" | lolcat
-    echo "#######################################" | lolcat
+    echo -e "\e[32m#######################################\e[0m" 
+    echo -e "\e[32m#                                     #\e[0m"
+    echo -e "\e[32m#         Hardware-PT Toolkit         #\e[0m"
+    echo -e "\e[32m#         Created by Cybermax         #\e[0m"
+    echo -e "\e[32m#                                     #\e[0m"
+    echo -e "\e[32m#######################################\e[0m"
 }
 
 # Print the banner
